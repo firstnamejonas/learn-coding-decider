@@ -43,9 +43,10 @@ img {
 }
 
 hr {
-    height: 1px;
-    width: 30%;
+    height: 2px;
+    width: 15%;
     background-color: #212120;
+    border: none;
 }
 
 #question-container {
