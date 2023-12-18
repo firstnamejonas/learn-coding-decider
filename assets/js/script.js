@@ -45,3 +45,7 @@ const decisionTree = [{
 // Default question when page is visited
 let currentQuestion = 0;
 questionElement.textContent = decisionTree[0].question;
+
+// Add event listeners for buttons to display another question 
+yesButton.addEventListener('click', () => buttonClick('Yes'));
+noButton.addEventListener('click', () => buttonClick('No'));
