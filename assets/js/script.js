@@ -105,3 +105,9 @@ function buttonClick(answer) {
     yesButton.textContent = decisionTree[currentQuestion].options[0];
     noButton.textContent = decisionTree[currentQuestion].options[1];
 }
+
+// Hide buttons function
+function hideButtons() {
+    yesButton.style.display = 'none';
+    noButton.style.display = 'none';
+}
