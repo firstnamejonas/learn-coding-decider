@@ -41,3 +41,7 @@ const decisionTree = [{
     options: ['Yes', 'No']
 }
 ]
+
+// Default question when page is visited
+let currentQuestion = 0;
+questionElement.textContent = decisionTree[0].question;
