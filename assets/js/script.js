@@ -49,3 +49,59 @@ questionElement.textContent = decisionTree[0].question;
 // Add event listeners for buttons to display another question 
 yesButton.addEventListener('click', () => buttonClick('Yes'));
 noButton.addEventListener('click', () => buttonClick('No'));
+
+// Function for buttonClick
+function buttonClick(answer) {
+    // Update the question based on the answer and current question index
+    switch (currentQuestion) {
+        case 0:
+            currentQuestion = (answer === 'Yes') ? 1 : 5;
+            break;
+        case 1:
+            currentQuestion = (answer === 'Yes') ? 5 : 2;
+            break;
+        case 2:
+            currentQuestion = (answer === 'Yes') ? 6 : 3;
+            break;
+        case 3:
+            currentQuestion = (answer === 'Yes') ? 7 : 4;
+            break;
+        case 4:
+            if (answer === 'Yes') {
+                // Display message and hide buttons
+                questionElement.textContent = "Coding might not be a good fit.";
+                hideButtons();
+                return;
+            } else if (answer === 'No') {
+                currentQuestion = 8;
+            }
+            break;
+        case 5:
+            currentQuestion = (answer === 'Yes') ? 6 : 2;
+            break;
+        case 6:
+            currentQuestion = (answer === 'Yes') ? 7 : 3;
+            break;
+        case 7:
+            currentQuestion = (answer === 'Yes') ? 8 : 4;
+            break;
+        case 8:
+            if (answer === 'Yes') {
+                // Display message and hide buttons
+                questionElement.textContent = "Coding might not be a good fit.";
+                hideButtons();
+                return;
+            } else if (answer === 'No') {
+                // Display message and hide buttons
+                questionElement.textContent = "You should definitely consider learning to code!";
+                hideButtons();
+                return;
+            }
+            break;
+    }
+
+    // Update question and options
+    questionElement.textContent = decisionTree[currentQuestion].question;
+    yesButton.textContent = decisionTree[currentQuestion].options[0];
+    noButton.textContent = decisionTree[currentQuestion].options[1];
+}
