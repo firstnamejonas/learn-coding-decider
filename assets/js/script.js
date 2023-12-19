@@ -153,3 +153,7 @@ function buttonClickForm () {
     questionElement.style.display = 'none';
     signUpForm.style.display = 'flex';
 }
+
+failButton.addEventListener('click', function () {
+    location.reload();
+});
