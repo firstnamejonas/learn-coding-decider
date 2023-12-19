@@ -108,6 +108,7 @@ function buttonClick(answer) {
                 // Display message and hide buttons
                 questionElement.textContent = "You should definitely consider learning to code!";
                 hideButtons();
+                showSuccessSigns();
                 return;
             }
             break;
@@ -123,4 +124,10 @@ function buttonClick(answer) {
 function hideButtons() {
     yesButton.style.display = 'none';
     noButton.style.display = 'none';
+}
+
+// Function for Success-Elements to appear
+function showSuccessSigns() {
+    successButton.style.display = 'block';
+    successIcon.style.display = 'block';
 }
