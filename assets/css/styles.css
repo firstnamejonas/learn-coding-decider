@@ -13,7 +13,13 @@ body {
 }
 
 
-header, footer {
+header {
+    background-color: #212120;
+    margin-bottom: auto;
+    height: 50px;
+}
+
+footer {
     background-color: #212120;
     margin-top: auto;
     height: 50px;
