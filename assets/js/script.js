@@ -2,6 +2,19 @@
 const questionElement = document.getElementById('question');
 const yesButton = document.getElementById('answer-yes');
 const noButton = document.getElementById('answer-no');
+const successButton = document.getElementById('form-button');
+const failButton = document.getElementById('refresh-button');
+const signUpForm = document.getElementById('signup-form')
+const successIcon = document.getElementById('success')
+const failIcon = document.getElementById('fail')
+
+document.addEventListener ("DOMContentLoaded", function () {
+    successButton.style.display = 'none';
+    failButton.style.display = 'none';
+    signUpForm.style.display = 'none';
+    successIcon.style.display = 'none';
+    failIcon.style.display = 'none';
+});
 
 // Data for questions and answers that are displaying
 const decisionTree = [{
