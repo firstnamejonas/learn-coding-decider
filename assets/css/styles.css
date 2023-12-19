@@ -12,7 +12,6 @@ body {
     background-color: #212120;
 }
 
-
 header {
     background-color: #212120;
     margin-bottom: auto;
@@ -102,6 +101,37 @@ hr {
     background-color: #ebae4a;
     color: white;
     
+}
+
+form {
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+form>input{
+    margin-bottom: 10px;
+    width: 90%;
+    height: 30px;
+    border: 1px solid #212120;
+    background: transparent;
+    border-radius: 10px;
+    color: #212120;
+    padding:5px;
+}
+
+form>button{
+    height: auto;
+    width: 90%;
+    padding: 5px;
+    background-color: #ebae4a;
+    border: 2px solid #ebae4a;
+    border-radius: 10px;
+    color: #212120;
 }
 
 @media only screen and (min-width: 768px) {
