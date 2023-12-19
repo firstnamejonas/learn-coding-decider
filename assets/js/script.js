@@ -139,3 +139,17 @@ function showFailSigns() {
     failButton.style.display = 'block';
     failIcon.style.display = 'block';
 }
+
+// Eventlistener for form to display
+successButton.addEventListener('click', () => buttonClickForm ());
+
+function buttonClickForm () {
+    failButton.style.display = 'none';
+    failIcon.style.display = 'none';
+    successButton.style.display = 'none';
+    successIcon.style.display = 'none';
+    yesButton.style.display = 'none';
+    noButton.style.display = 'none';
+    questionElement.style.display = 'none';
+    signUpForm.style.display = 'flex';
+}
