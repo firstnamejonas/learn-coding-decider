@@ -84,6 +84,7 @@ function buttonClick(answer) {
                 // Display message and hide buttons
                 questionElement.textContent = "Coding might not be a good fit.";
                 hideButtons();
+                showFailSigns();
                 return;
             } else if (answer === 'No') {
                 currentQuestion = 8;
@@ -103,6 +104,7 @@ function buttonClick(answer) {
                 // Display message and hide buttons
                 questionElement.textContent = "Coding might not be a good fit.";
                 hideButtons();
+                showFailSigns();
                 return;
             } else if (answer === 'No') {
                 // Display message and hide buttons
@@ -130,4 +132,10 @@ function hideButtons() {
 function showSuccessSigns() {
     successButton.style.display = 'block';
     successIcon.style.display = 'block';
+}
+
+// Function for Fail-Elements to appear
+function showFailSigns() {
+    failButton.style.display = 'block';
+    failIcon.style.display = 'block';
 }
