@@ -4,8 +4,22 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #212120;
+}
+
+
+header, footer {
+    background-color: #212120;
+    margin-top: auto;
+    height: 50px;
+}
+
 main {
-    height: 100vh;
     width: 100%;
     background-color: #212120;
     display: flex;
