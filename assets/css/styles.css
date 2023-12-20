@@ -20,7 +20,6 @@ header {
     height: 70px;
     width: 80%;
     z-index: 99;
-    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,24 +38,26 @@ header {
     padding: 5px;
 }
 
-footer {
-    background-color: #212120;
-    margin-top: auto;
-    height: 50px;
-}
-
 main {
     width: 100%;
     background-color: #212120;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-top: 70px;
+}
+
+section {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #container {
     background-color: white;
-    width: 80%;
+    width: 100%;
     padding: 10px;
     height: auto;
     border-radius: 10px;
@@ -161,11 +162,13 @@ form>button{
     margin: 10px 0;
 }
 
-@media only screen and (min-width: 768px) {
+footer {
+    background-color: #212120;
+    margin-top: auto;
+    height: 50px;
+}
 
-    #container {
-        width: 70%;
-    }
+@media only screen and (min-width: 768px) {
 
     #img-desktop {
         width: 200px;
@@ -182,8 +185,6 @@ form>button{
 @media only screen and (min-width: 768px) {
 
     #question-container > button:hover {
-        width: 90%;
-        height: 50px;
         border-radius: 10px;
         border: 1px solid #ebae4a;
         background-color: #ebae4a;
