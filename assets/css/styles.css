@@ -8,6 +8,7 @@
 body {
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-height: 100vh;
     margin: 0;
     background-color: #212120;
@@ -16,7 +17,26 @@ body {
 header {
     background-color: #212120;
     margin-bottom: auto;
+    height: 70px;
+    width: 80%;
+    z-index: 99;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
     height: 50px;
+    width: 50px;
+}
+
+#link-decider {
+    color: white;
+    text-decoration: none;
+    border: 2px solid #ebae4a;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 footer {
@@ -31,6 +51,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 70px;
 }
 
 #container {
