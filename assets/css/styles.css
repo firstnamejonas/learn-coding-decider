@@ -35,7 +35,9 @@ header {
     text-decoration: none;
     border: 2px solid #ebae4a;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 main {
@@ -139,7 +141,7 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: bold;
-    transition: 0.3s
+    transition: 0.3s;
 }
 
 form {
@@ -220,6 +222,10 @@ footer {
         border: 1px solid #ebae4a;
         background-color: transparent;
         color: #212120;
+    }
+
+    #link-decider:hover {
+        background-color: #ebae4a;
     }
 
 }
