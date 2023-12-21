@@ -160,6 +160,17 @@ hr {
     transition: 0.3s;
 }
 
+#newsletter-info {
+    color: white;
+    background-color: #ebae4a;
+    text-decoration: none;
+    border: 2px solid #ebae4a;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
 form {
     width: 90%;
     padding: 10px;
@@ -212,6 +223,7 @@ form>button{
     align-items: center;
     justify-content: center;
     margin: 70px 0;
+    scroll-margin-top: 1em;
 }
 
 #newsletter-signup > h1,
@@ -315,7 +327,7 @@ a > i {
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1100px) {
 
     #question-container > button:hover {
         border-radius: 10px;
@@ -332,6 +344,11 @@ a > i {
 
     #link-decider:hover {
         background-color: #ebae4a;
+    }
+
+    #newsletter-info:hover {
+        background-color: transparent;
+        color: #212120;
     }
 
 }
