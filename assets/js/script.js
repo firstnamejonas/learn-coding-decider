@@ -18,6 +18,9 @@ document.addEventListener ("DOMContentLoaded", function () {
     signUpForm.style.display = 'none';
     successIcon.style.display = 'none';
     failIcon.style.display = 'none';
+    formDescription.style.display = 'none';
+    signedUpText.style.display = 'none';
+    newsletterInfoButton.style.display = 'none';
 });
 
 // Data for questions and answers that are displaying
@@ -156,8 +159,17 @@ function buttonClickForm () {
     noButton.style.display = 'none';
     questionElement.style.display = 'none';
     signUpForm.style.display = 'flex';
+    formDescription.style.display = 'flex';
 }
 
 failButton.addEventListener('click', function () {
     location.reload();
+});
+
+signUpForm.addEventListener('submit', function (event) {
+    event.preventDefault();
+    signUpForm.style.display = 'none';
+    formDescription.style.display = 'none';
+    signedUpText.style.display = 'flex';
+    newsletterInfoButton.style.display = 'flex';
 });
