@@ -60,7 +60,7 @@ const decisionTree = [{
     question: 'I struggle with thinking outside of the box:',
     options: ['Yes', 'No']
 }
-]
+];
 
 // Default question when page is visited
 let currentQuestion = 0;
