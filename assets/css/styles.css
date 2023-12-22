@@ -42,7 +42,7 @@ header {
     width: 50px;
 }
 
-#link-decider {
+.link-decider {
     color: white;
     text-decoration: none;
     border: 2px solid #ebae4a;
