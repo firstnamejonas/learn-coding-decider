@@ -8,17 +8,18 @@
         content="Decide if coding is for you. Decide if you want to learn coding. Learn how to code. How to learn how to code.">
     <meta name="keywords"
         content="learn coding, decide to code, how to code, coding, programming, html, css, js, python">
+    <meta name="author" content="Jonas Hessling">
     <!--CSS Connection-->
     <link rel="stylesheet" href="assets/css/styles.css">
-    <title>Is coding for me?</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon/favicon_learn_coding_decider.png">
+    <title>Is coding for me?</title>
 </head>
 
 <body>
     <header>
-        <a href="index.html" id="home-link"><img src="assets/favicon/favicon_learn_coding_decider.png" alt="Logo of the Page"
+        <a href="index.html" id="home-link"><img src="assets/favicon/favicon_learn_coding_decider.png" aria-label="Logo of the Page that leads to home page"
                 id="logo"></a>
-        <a href="#container" class="link-decider">Go to Decider!</a>
+        <a href="#container" class="link-decider" aria-label="Go to Decider to answer the question">Go to Decider!</a>
     </header>
     <main>
         <section id="hero-section">
@@ -27,13 +28,13 @@
                 worry, we're here to help! Simply answer a few questions, and we'll let you know if coding aligns with
                 your passions. Let's discover together whether you should be the next coding pro!"
             </p>
-            <a href="#container" class="link-decider">Go to Decider!</a>
+            <a href="#container" class="link-decider" aria-label="Go to Decider to answer the question">Go to Decider!</a>
         </section>
         <section id="decider-section">
             <div id="container">
                 <img src="assets/images/image_desktop_container.png" alt="Image of an animated desktop"
                     id="img-desktop">
-                <h1>Is coding right for you?</h1>
+                <h2>Is coding right for you?</h2>
                 <p>To find out if coding is right for you, please read the statements below and click the buttons to
                     answer!</p>
                 <hr>
@@ -61,13 +62,13 @@
             </div>
         </section>
         <section id="newsletter-signup">
-            <h1>Here's what you can expect from our <span>newsletter</span> you signed up for after the Decider!</h1>
+            <h2>Here's what you can expect from our <span>newsletter</span> you signed up for after the Decider!</h2>
             <p>If you haven't done the <span>Decider</span> or didn't fill out the <span>form</span> after it, please
                 take your
                 time, as we highly recommend to subscribe to our <span>newsletter</span> if you want to get into the
                 tech industry!
             </p>
-            <a href="#container" id="link-decider">Go to Decider!</a>
+            <a href="#container" id="link-decider" aria-label="Go to Decider to answer the question">Go to Decider!</a>
             <h2>What's Inside the Newsletter?</h2>
             <hr>
             <h3>'Getting-Started' Guide:</h3>
@@ -93,17 +94,23 @@
         <h3>Follow us on Social Media:</h3>
         <div id="social-media">
             <a href="https://www.facebook.com/" target="_blank" rel="noopener" 
-            aria-label="Visit our Facebook page (Opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
+            aria-label="Visit our Facebook page to learn more about us on social media (Opens in new tab)">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
             <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (Opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
+            aria-label="Visit our Instagram page to learn more about us on social media (Opens in new tab)">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
             <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                    aria-label="Visit our Twitter page (Opens in new tab)"><i class="fa-brands fa-square-x-twitter"></i></a>
+                aria-label="Visit our Twitter page to learn more about us on social media (Opens in new tab)">
+                    <i class="fa-brands fa-square-x-twitter"></i>
+            </a>
         </div>
         <p>© 2023 Jonas Hessling, All rights reserved!</p>
     </footer>
     <!--JavaScript Connection-->
-    <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/53b06d2d8a.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
