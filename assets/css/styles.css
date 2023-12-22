@@ -342,7 +342,7 @@ a > i {
         color: #212120;
     }
 
-    #link-decider:hover {
+    .link-decider:hover {
         background-color: #ebae4a;
     }
 
