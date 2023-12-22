@@ -1,3 +1,5 @@
+/* jshint esversion: 6 */
+
 // HTML elements I want to target
 const questionElement = document.getElementById('question');
 const yesButton = document.getElementById('answer-yes');
