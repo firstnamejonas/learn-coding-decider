@@ -23,56 +23,72 @@ document.addEventListener ("DOMContentLoaded", function () {
     formDescription.style.display = 'none';
     signedUpText.style.display = 'none';
     newsletterInfoButton.style.display = 'none';
+    // Add event listeners for buttons to display another question 
+    yesButton.addEventListener('click', () => buttonClick('Yes'));
+    noButton.addEventListener('click', () => buttonClick('No'));
+    // Add event listener for quiz to reload
+    failButton.addEventListener('click', function () {
+        location.reload();
+    });
+    // Eventlistener for form to display
+    successButton.addEventListener('click', () => buttonClickForm ());
+    // Add event listener to display success message after submitting the form
+    signUpForm.addEventListener('submit', function (event) {
+        event.preventDefault();
+        signUpForm.style.display = 'none';
+        formDescription.style.display = 'none';
+        signedUpText.style.display = 'flex';
+        newsletterInfoButton.style.display = 'flex';
+    });
 });
 
 // Data for questions and answers that are displaying
-const decisionTree = [{
-    question: 'I would typically describe myself as:',
-    options: ['Creative', 'Analytical']
-},
-{
-    question: 'I am interested in technology:',
-    options: ['Yes', 'No']
-},
-{
-    question: 'I enjoy building things from scratch:',
-    options: ['Yes', 'No']
-},
-{
-    question: 'A competitive salary is important to me:',
-    options: ['Yes', 'No']
-},
-{
-    question: 'I struggle with time management:',
-    options: ['Yes', 'No']
-},
-{
-    question: 'I enjoy problem-solving and completing puzzles:',
-    options: ['Yes', 'No']
-},
-{
-    question: 'I am self-motivated and can work alone:',
-    options: ['Yes', 'No']
-},
-{
-    question: 'I enjoy coming up with new ideas:',
-    options: ['Yes', 'No']
-},
-{
-    question: 'I struggle with thinking outside of the box:',
-    options: ['Yes', 'No']
-}
+const decisionTree = [
+    {
+        question: 'I would typically describe myself as:',
+        options: ['Creative', 'Analytical']
+    },
+    {      
+        question: 'I am interested in technology:',
+        options: ['Yes', 'No']
+    },
+    {      
+        question: 'I enjoy building things from scratch:',
+        options: ['Yes', 'No']
+    },
+    {
+        question: 'A competitive salary is important to me:',
+        options: ['Yes', 'No']
+    },
+    {
+        question: 'I struggle with time management:',
+        options: ['Yes', 'No']
+    },
+    {
+        question: 'I enjoy problem-solving and completing puzzles:',
+        options: ['Yes', 'No']
+    },
+    {
+        question: 'I am self-motivated and can work alone:',
+        options: ['Yes', 'No']
+    },
+    {
+        question: 'I enjoy coming up with new ideas:',
+        options: ['Yes', 'No']
+    },
+    {
+        question: 'I struggle with thinking outside of the box:',
+        options: ['Yes', 'No']
+    }
 ];
 
 // Default question when page is visited
 let currentQuestion = 0;
 questionElement.textContent = decisionTree[0].question;
 
-// Add event listeners for buttons to display another question 
-yesButton.addEventListener('click', () => buttonClick('Yes'));
-noButton.addEventListener('click', () => buttonClick('No'));
-
-// Function for buttonClick
+/**
+ * Function for buttonClick
+ */
 function buttonClick(answer) {
     // Update the question based on the answer and current question index
     switch (currentQuestion) {
@@ -149,9 +165,6 @@ function showFailSigns() {
     failIcon.style.display = 'block';
 }
 
-// Eventlistener for form to display
-successButton.addEventListener('click', () => buttonClickForm ());
-
 function buttonClickForm () {
     failButton.style.display = 'none';
     failIcon.style.display = 'none';
@@ -163,15 +176,3 @@ function buttonClickForm () {
     signUpForm.style.display = 'flex';
     formDescription.style.display = 'flex';
 }
-
-failButton.addEventListener('click', function () {
-    location.reload();
-});
-
-signUpForm.addEventListener('submit', function (event) {
-    event.preventDefault();
-    signUpForm.style.display = 'none';
-    formDescription.style.display = 'none';
-    signedUpText.style.display = 'flex';
-    newsletterInfoButton.style.display = 'flex';
-});
