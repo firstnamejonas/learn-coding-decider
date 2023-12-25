@@ -10,8 +10,6 @@ const signUpForm = document.getElementById('signup-form');
 const successIcon = document.getElementById('success');
 const failIcon = document.getElementById('fail');
 const formDescription = document.getElementById('form-description');
-const signedUpText= document.getElementById('congrats');
-const newsletterInfoButton = document.getElementById('newsletter-info');
 
 
 document.addEventListener ("DOMContentLoaded", function () {
