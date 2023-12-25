@@ -116,7 +116,7 @@ span {
     width: 90px;
 }
 
-#container > h1 {
+#container > h2 {
     font-size: larger;
     text-align: center;
 }
@@ -226,7 +226,6 @@ form>button{
     scroll-margin-top: 1em;
 }
 
-#newsletter-signup > h1,
 #newsletter-signup > h2,
 #newsletter-signup > h3,
 #newsletter-signup > p {
