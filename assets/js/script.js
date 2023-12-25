@@ -32,14 +32,6 @@ document.addEventListener ("DOMContentLoaded", function () {
     });
     // Eventlistener for form to display
     successButton.addEventListener('click', () => buttonClickForm ());
-    // Add event listener to display success message after submitting the form
-    signUpForm.addEventListener('submit', function (event) {
-        event.preventDefault();
-        signUpForm.style.display = 'none';
-        formDescription.style.display = 'none';
-        signedUpText.style.display = 'flex';
-        newsletterInfoButton.style.display = 'flex';
-    });
 });
 
 // Data for questions and answers that are displaying
