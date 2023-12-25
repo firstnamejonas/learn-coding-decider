@@ -19,8 +19,6 @@ document.addEventListener ("DOMContentLoaded", function () {
     successIcon.style.display = 'none';
     failIcon.style.display = 'none';
     formDescription.style.display = 'none';
-    signedUpText.style.display = 'none';
-    newsletterInfoButton.style.display = 'none';
     // Add event listeners for buttons to display another question 
     yesButton.addEventListener('click', () => buttonClick('Yes'));
     noButton.addEventListener('click', () => buttonClick('No'));
