@@ -317,6 +317,8 @@ a>i {
 
 small {
     color: white;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 /* End of styles for confirmation page */
