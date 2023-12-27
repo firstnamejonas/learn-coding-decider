@@ -11,7 +11,9 @@ const successIcon = document.getElementById('success');
 const failIcon = document.getElementById('fail');
 const formDescription = document.getElementById('form-description');
 
-
+/**
+ * Event listener for how content is to be displayed when page is loaded
+ */
 document.addEventListener ("DOMContentLoaded", function () {
     successButton.style.display = 'none';
     failButton.style.display = 'none';
@@ -30,7 +32,9 @@ document.addEventListener ("DOMContentLoaded", function () {
     successButton.addEventListener('click', () => buttonClickForm ());
 });
 
-// Data for questions and answers that are displaying
+/**
+ * Data for questions and answers that are displaying
+ */
 const decisionTree = [
     {
         question: 'I would typically describe myself as:',
@@ -75,7 +79,7 @@ let currentQuestion = 0;
 questionElement.textContent = decisionTree[0].question;
 
 /**
- * Function for buttonClick
+ * Function for buttonClick, to display correct question to users answer
  */
 function buttonClick(answer) {
     // Update the question based on the answer and current question index
@@ -135,24 +139,33 @@ function buttonClick(answer) {
     noButton.textContent = decisionTree[currentQuestion].options[1];
 }
 
-// Hide buttons function
+/**
+ * Function for buttons to be hidden, when quiz is over
+ */
 function hideButtons() {
     yesButton.style.display = 'none';
     noButton.style.display = 'none';
 }
 
-// Function for Success-Elements to appear
+/**
+ * Function for Success-Elements to appear
+ */
 function showSuccessSigns() {
     successButton.style.display = 'block';
     successIcon.style.display = 'block';
 }
 
-// Function for Fail-Elements to appear
+/**
+ * Function for Fail-Elements to appear
+ */
 function showFailSigns() {
     failButton.style.display = 'block';
     failIcon.style.display = 'block';
 }
 
+/**
+ * Function for form to be displayed after button was clicked
+ */
 function buttonClickForm () {
     failButton.style.display = 'none';
     failIcon.style.display = 'none';
