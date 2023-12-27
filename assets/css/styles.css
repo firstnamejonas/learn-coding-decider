@@ -1,3 +1,4 @@
+/* General Styles for the whole page */
 * {
     padding: 0;
     margin: 0;
@@ -5,10 +6,12 @@
     color: #212120;
 }
 
+/* Scroll behavior style for link clicks */
 html {
     scroll-behavior: smooth;
 }
 
+/* Styles for body content */
 body {
     display: flex;
     flex-direction: column;
@@ -31,17 +34,20 @@ header {
     border-bottom: 1px solid #ebae4a;
 }
 
+/* Style for Logo to appear on the same height as the button */
 #home-link {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Logo size in the header */
 #logo {
     height: 50px;
     width: 50px;
 }
 
+/* Style link as a button */
 .link-decider {
     color: white;
     text-decoration: none;
@@ -65,6 +71,7 @@ main {
     margin-top: 70px;
 }
 
+/* Hero section styles */
 #hero-section {
     width: 90%;
     display: flex;
@@ -89,7 +96,9 @@ main {
 span {
     color: #ebae4a;
 }
+/* Hero section styles ending */
 
+/* Quiz section styles */
 #decider-section {
     width: 90%;
     display: flex;
@@ -172,7 +181,9 @@ hr {
     font-weight: bold;
     transition: 0.3s;
 }
+/* Quiz section styles ending */
 
+/* Form styles in quiz section */
 form {
     width: 90%;
     padding: 10px;
@@ -205,7 +216,9 @@ form>button {
     font-weight: bold;
     transition: 0.3s
 }
+/* Form styles in quiz section ending */
 
+/* Further quiz section styles */
 #success {
     width: 60px;
     height: 60px;
@@ -217,7 +230,9 @@ form>button {
     height: 60px;
     margin: 10px 0;
 }
+/* Further quiz section styles ending */
 
+/* Newsletter info section styles */
 #newsletter-signup {
     width: 90%;
     display: flex;
@@ -249,6 +264,7 @@ form>button {
     background-color: white;
     margin-bottom: 20px;
 }
+/* Newsletter info section styles ending */
 
 /* Main Styles Ending */
 
@@ -323,6 +339,8 @@ small {
 
 /* End of styles for confirmation page */
 
+/* Start of media query */
+/* Media query for screens starting from tablets */
 @media only screen and (min-width: 768px) {
 
     #img-desktop {
@@ -364,6 +382,7 @@ small {
 
 }
 
+/* Media query for screens like desktops and laptops */
 @media only screen and (min-width: 1100px) {
 
     #question-container>button:hover {
@@ -393,3 +412,5 @@ small {
     }
 
 }
+
+/* End of media query */
