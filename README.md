@@ -1,8 +1,6 @@
-ReadMe - ‚Is coding for me?‘:
-
 # [LEARN CODING DECIDER](https://firstnamejonas.github.io/learn-coding-decider)
 
-Welcome to Learn Coding Decider, a web application designed to help you answer the common question: "Is Coding for me?" 
+Welcome to Learn Coding Decider, a web application designed to help you answer the common question: **"Is Coding for me?"** 
 The heart of the site is the Decider, an interactive decision tree that guides users through a series of questions to help them determine if pursuing programming as a future career path is the right choice. The ultimate goal is to encourage users to sign up for a newsletter, fostering a connection for ongoing guidance and support.
 
 ![screenshot](documentation/mockup.png)
@@ -58,11 +56,11 @@ I've used [Canva](https://www.canva.com) to design my site wireframes.
 <details>
 <summary> Click here to see the Mobile Wireframes </summary>
 
-Home Page
-  - ![screenshot](documentation/wireframes/mobile-home.png)
+Home Page <br>
+![screenshot](documentation/wireframes/mobile-home.png)
 
-Confirmation Page
-  - ![screenshot](documentation/wireframes/mobile-confirmation.png)
+Confirmation Page <br>
+![screenshot](documentation/wireframes/mobile-confirmation.png)
 
 </details>
 
@@ -71,11 +69,11 @@ Confirmation Page
 <details>
 <summary> Click here to see the Tablet Wireframes </summary>
 
-Home Page
-  - ![screenshot](documentation/wireframes/tablet-home.png)
+Home Page <br>
+![screenshot](documentation/wireframes/tablet-home.png)
 
-Confirmation Page
-  - ![screenshot](documentation/wireframes/tablet-confirmation.png)
+Confirmation Page <br>
+![screenshot](documentation/wireframes/tablet-confirmation.png)
 
 </details>
 
@@ -84,11 +82,11 @@ Confirmation Page
 <details>
 <summary> Click here to see the Desktop Wireframes </summary>
 
-Home Page
-  - ![screenshot](documentation/wireframes/desktop-home.png)
+Home Page <br>
+- ![screenshot](documentation/wireframes/desktop-home.png)
 
-Confirmation Page
-  - ![screenshot](documentation/wireframes/desktop-confirmation.png)
+Confirmation Page <br>
+- ![screenshot](documentation/wireframes/desktop-confirmation.png)
 
 </details>
 
