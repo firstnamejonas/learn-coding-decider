@@ -1,110 +1,255 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+ReadMe - ‚Is coding for me?‘:
 
-Welcome Jonas Hessling,
+# [LEARN CODING DECIDER](https://firstnamejonas.github.io/learn-coding-decider)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Welcome to Learn Coding Decider, a web application designed to help you answer the common question: "Is Coding for me?" 
+The heart of the site is the Decider, an interactive decision tree that guides users through a series of questions to help them determine if pursuing programming as a future career path is the right choice. The ultimate goal is to encourage users to sign up for a newsletter, fostering a connection for ongoing guidance and support.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![screenshot](documentation/mockup.png)
 
-## Gitpod Reminders
+## UX
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Crafting a compelling User Experience (UX) is pivotal in shaping and implementing the 'learn-coding-decider' website. Beyond merely disseminating information about the project, my objective is to establish an interactive and user-friendly environment that motivates visitors to actively engage with the initiative. The UX design process has been meticulously developed to enable seamless navigation, ensuring users comprehend the mission of 'Learn Coding Decider' and are ultimately inspired to find their right career path.
+The process encompasses:
+* Understanding the audience's informational needs and interests as the foundation for a strategically designed interface.
+* Organizing the website structure for intuitive access to information, facilitating effortless navigation through its various sections.
+* Designing a visually appealing layout that conveys key messages and the mission behind 'Learn Coding Decider' promptly.
 
-`python3 -m http.server`
+### Colour Scheme
 
-A blue button should appear to click: _Make Public_,
+- #212120 and white are used for texts.
+- #212120 is used for main background of the page
+- #ebae4a is used for highlights of the page
 
-Another blue button should appear to click: _Open Browser_.
+I used these colors because they not only contrast well with each other, but also because they convey a technical flair. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+[coolors.co](https://coolors.co/212120-ebae4a-ffffff)
 
-A blue button should appear to click: _Make Public_,
+![screenshot](documentation/coolors.png)
 
-Another blue button should appear to click: _Open Browser_.
+### Typography
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- 'Courier New‘, with a backfall font of Courier and Monospace, was used for all text on the page.
+- I used this font because it looks like the font you use in IDE's when programming.
+- [Font Awesome](https://fontawesome.com) icons were used, such as the social media icons in the footer.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## User Stories
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### New Site Users
 
-------
+- As a new site user, I would like to utilize the Decider so that I can determine if pursuing programming is a suitable career path for me.
+- As a new site user, I would like to have clear guidance throughout the decision-making process so that I can navigate the Decider seamlessly.
+- As a new site user, I would like to have the ability to reconsider my decision and restart the Decider so that I can learn more about my suitability for programming.
 
-## Release History
+### Returning Site Users
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- As a returning site user, I would like to show the Decider to my friends, enabling them to experience the Decider and discover their own coding potential.
+- As a returning site user, I would like to subscribe to newsletters or updates so that I can stay informed about new developments in the programming field.
 
-**September 20 2023:** Update Python version to 3.9.17.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Wireframes
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
+I've used [Canva](https://www.canva.com) to design my site wireframes.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Mobile Wireframes
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<details>
+<summary> Click here to see the Mobile Wireframes </summary>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+Home Page
+  - ![screenshot](documentation/wireframes/mobile-home.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Confirmation Page
+  - ![screenshot](documentation/wireframes/mobile-confirmation.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+</details>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Tablet Wireframes
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<details>
+<summary> Click here to see the Tablet Wireframes </summary>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Home Page
+  - ![screenshot](documentation/wireframes/tablet-home.png)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+Confirmation Page
+  - ![screenshot](documentation/wireframes/tablet-confirmation.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+</details>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Desktop Wireframes
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<details>
+<summary> Click here to see the Desktop Wireframes </summary>
 
-------
+Home Page
+  - ![screenshot](documentation/wireframes/desktop-home.png)
 
-## FAQ about the uptime script
+Confirmation Page
+  - ![screenshot](documentation/wireframes/desktop-confirmation.png)
 
-**Why have you added this script?**
+</details>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+## Features
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Existing Features
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- **Feature #1: Header**
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+- The header features a logo that serves as a home button, allowing users to easily navigate back to the homepage. 
+- Additionally, there is a direct link to access the Decider tool, providing a seamless and intuitive user experience.
 
-**So….?**
+![screenshot](documentation/feature01.png)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+- **Feature #2: Hero-Section**
 
-**Can I opt out?**
+- The hero section provides essential information about the purpose and usage of the Decider tool. 
+- Users can quickly understand how the Decider assists them in determining whether programming is a suitable career path. 
+- The section also includes a prominent link to access the Decider tool for immediate engagement.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+![screenshot](documentation/feature02.png)
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- **Feature #3: Decider - interactive decision tree**
 
-**Anything more?**
+- The Decider is a dynamic decision tree powered by JavaScript. 
+- It presents users with a series of questions and guides them through a personalized journey. Based on their responses, the Decider determines whether programming is a fitting career choice. 
+- If programming is recommended, users can proceed to an interactive form to subscribe to the newsletter. 
+- In case programming is not recommended, a button allows users to reset the Decider for a fresh start.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![screenshot](documentation/feature03.png)
+![screenshot](documentation/feature03_1.png)
+![screenshot](documentation/feature03_2.png)
+![screenshot](documentation/feature03_3.png)
 
----
+- **Feature #4: Newsletter Section - Subscription Information**
 
-Happy coding!
+- This section provides users with details about the newsletter they can subscribe to. 
+- It outlines the benefits of joining the newsletter, such as receiving updates, resources, and exclusive content related to programming and career paths.
+
+![screenshot](documentation/feature04.png)
+
+- **Feature #5: Footer - Social Media Links and Copyright**
+
+- The footer contains links to the website's social media profiles, facilitating user engagement and community interaction. 
+- Additionally, it includes copyright information to convey ownership and protect intellectual property. 
+- The footer ensures a professional and comprehensive conclusion to the website.
+
+![screenshot](documentation/feature05.png)
+
+- **Feature #6: Confirmation Page Enhancements**
+
+- Upon completing the form, users will be directed to a streamlined Confirmation Page for a seamless experience. After a brief 10-second countdown, users will automatically be redirected to the homepage, ensuring easy navigation.
+
+- Key Additions:
+
+- Quick Navigation: The automatic redirection to the homepage ensures users can swiftly explore additional content or revisit the Learn Coding Decider.
+
+- Decider Replay: For those eager to reassess their coding journey, a prominent button will allow users to replay the Learn Coding Decider instantly.
+
+- Newsletter Information: Another button will provide access to detailed information about the newsletter, allowing users to stay informed about updates and valuable insights.
+
+- This enhanced Confirmation Page aims to balance efficiency with engagement, offering users the flexibility to continue their exploration or revisit key components of the Learn Coding Decider journey.
+
+![screenshot](documentation/feature06.png)
+
+### Future Features
+
+- **Future Feature: Sharing is caring**
+
+- In the future, there could be an update that allows users to share their results on social media or with their friends.
+
+
+## Tools & Technologies Used
+
+- [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
+- [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
+- [CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) used for an enhanced responsive layout.
+- [JavaScript](https://www.javascript.com) used for user interaction on the site.
+- [Git](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+- [GitHub](https://github.com) used for secure online code storage.
+- [GitHub Pages](https://pages.github.com) used for hosting the deployed front-end site.
+- [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
+
+
+## Testing
+
+For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
+## Deployment
+
+The site was deployed to GitHub Pages. The steps to deploy are as follows:
+
+- In the [GitHub repository](https://github.com/firstnamejonas/learn-coding-decider), navigate to the Settings tab 
+- From the source section drop-down menu, select the **Main** Branch, then click "Save".
+- The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://firstnamejonas.github.io/learn-coding-decider)
+
+### Local Deployment
+
+This project can be cloned or forked in order to make a local copy on your own system.
+
+#### Cloning
+
+You can clone the repository by following these steps:
+
+1. Go to the [GitHub repository](https://github.com/firstnamejonas/learn-coding-decider) 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or GitHub CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash or Terminal
+5. Change the current working directory to the one where you want the cloned directory
+6. In your IDE Terminal, type the following command to clone my repository:
+	- `git clone https://github.com/firstnamejonas/learn-coding-decider.git`
+7. Press Enter to create your local clone.
+
+Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/firstnamejonas/learn-coding-decider)
+
+Please note that in order to directly open the project in Gitpod, you need to have the browser extension installed.
+A tutorial on how to do that can be found [here](https://www.gitpod.io/docs/configure/user-settings/browser-extension).
+
+#### Forking
+
+By forking the GitHub Repository, we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original owner's repository.
+You can fork this repository by using the following steps:
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/firstnamejonas/learn-coding-decider)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
+
+### Local VS Deployment
+
+There were no differences found.
+
+
+## Credits
+
+### Content
+
+| Source | Location | Notes |
+| --- | --- | --- |
+| [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
+| [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_fade3) | CSS file | Fading Buttons - "Fade in Effect" |
+| [StackOverflow](https://stackoverflow.com/questions/8685107/hiding-a-button-in-javascript) | JavaScript file | used to hide and show elements at the right time in the decider container |
+| [The Morpheus Tutorials](https://www.youtube.com/@TheMorpheusTutorials) & [CodeInstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/73e9c0413ead4a21b389e33c77706102/ba023cfa11c04351a3758b21ee4418fe/?child=first) & [CodeInstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/73e9c0413ead4a21b389e33c77706102/ba023cfa11c04351a3758b21ee4418fe/?child=first) | JavaScript file | used for tipps with switch cases and ternary operators |
+
+### Media
+
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+| [Canva](https://www.canva.com) | entire site | image | favicon on all pages |
+| [Canva](https://www.canva.com) | entire site | image | logo on all pages |
+| [Canva](https://www.canva.com) | decider container | image | animated desktop image |
+| [Canva](https://www.canva.com) | decider container | image | fail sign when coding may not be right for user |
+| [Canva](https://www.canva.com) | decider container | image | success sign when coding may be right for user |
+
+### Acknowledgements
+
+- I would like to thank my family & my partner Caro, for believing in me, and allowing me to make this transition into software development.
+- I would like to thank my Code Institute mentor, Julia for her support throughout the development of this project, giving me confidence and valuable advice!
+- I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his ongoing support through out the project!
+- I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going.
