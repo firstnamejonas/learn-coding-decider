@@ -16,7 +16,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 100vh;
     margin: 0;
     background-color: #212120;
 }
@@ -308,6 +307,7 @@ a>i {
 /* Styles for confirmation page */
 #hero-section-confirmation {
     width: 90%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
