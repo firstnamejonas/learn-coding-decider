@@ -2,6 +2,7 @@
 
 Welcome to Learn Coding Decider, a web application designed to help you answer the common question: **"Is Coding for me?"** 
 The heart of the site is the Decider, an interactive decision tree that guides users through a series of questions to help them determine if pursuing programming as a future career path is the right choice. The ultimate goal is to encourage users to sign up for a newsletter, fostering a connection for ongoing guidance and support.
+[Click here to view the live version!](https://firstnamejonas.github.io/learn-coding-decider)
 
 ![screenshot](documentation/mockup.png)
 
@@ -95,14 +96,14 @@ Confirmation Page <br>
 
 ### Existing Features
 
-- **Feature #1: Header**
+**Feature #1: Header**
 
 - The header features a logo that serves as a home button, allowing users to easily navigate back to the homepage. 
 - Additionally, there is a direct link to access the Decider tool, providing a seamless and intuitive user experience.
 
 ![screenshot](documentation/feature01.png)
 
-- **Feature #2: Hero-Section**
+**Feature #2: Hero-Section**
 
 - The hero section provides essential information about the purpose and usage of the Decider tool. 
 - Users can quickly understand how the Decider assists them in determining whether programming is a suitable career path. 
@@ -110,9 +111,9 @@ Confirmation Page <br>
 
 ![screenshot](documentation/feature02.png)
 
-- **Feature #3: Decider - interactive decision tree**
+**Feature #3: Decider - interactive decision tree**
 
-- The Decider is a dynamic decision tree powered by JavaScript. The logic of the decider is build like the decision tree below:
+- The Decider is a dynamic decision tree powered by JavaScript. The logic of the decider is build like the decision tree below:<br>
 ![screenshot](documentation/feature03_4.png)
 - It presents users with a series of questions and guides them through a personalized journey. Based on their responses, the Decider determines whether programming is a fitting career choice. 
 - If programming is recommended, users can proceed to an interactive form to subscribe to the newsletter. 
@@ -123,14 +124,14 @@ Confirmation Page <br>
 ![screenshot](documentation/feature03_2.png)
 ![screenshot](documentation/feature03_3.png)
 
-- **Feature #4: Newsletter Section - Subscription Information**
+**Feature #4: Newsletter Section - Subscription Information**
 
 - This section provides users with details about the newsletter they can subscribe to. 
 - It outlines the benefits of joining the newsletter, such as receiving updates, resources, and exclusive content related to programming and career paths.
 
 ![screenshot](documentation/feature04.png)
 
-- **Feature #5: Footer - Social Media Links and Copyright**
+**Feature #5: Footer - Social Media Links and Copyright**
 
 - The footer contains links to the website's social media profiles, facilitating user engagement and community interaction. 
 - Additionally, it includes copyright information to convey ownership and protect intellectual property. 
@@ -138,7 +139,7 @@ Confirmation Page <br>
 
 ![screenshot](documentation/feature05.png)
 
-- **Feature #6: Confirmation Page Enhancements**
+**Feature #6: Confirmation Page Enhancements**
 
 - Upon completing the form, users will be directed to a streamlined Confirmation Page for a seamless experience. After a brief 10-second countdown, users will automatically be redirected to the homepage, ensuring easy navigation.
 
@@ -156,7 +157,7 @@ Confirmation Page <br>
 
 ### Future Features
 
-- **Future Feature: Sharing is caring**
+**Future Feature: Sharing is caring**
 
 - In the future, there could be an update that allows users to share their results on social media or with their friends.
 
@@ -235,6 +236,7 @@ There were no differences found.
 | [W3Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_buttons_fade3) | CSS file | Fading Buttons - "Fade in Effect" |
 | [StackOverflow](https://stackoverflow.com/questions/8685107/hiding-a-button-in-javascript) | JavaScript file | used to hide and show elements at the right time in the decider container |
 | [The Morpheus Tutorials](https://www.youtube.com/@TheMorpheusTutorials) & [CodeInstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/73e9c0413ead4a21b389e33c77706102/ba023cfa11c04351a3758b21ee4418fe/?child=first) & [CodeInstitute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LMR101+2021_T1/courseware/73e9c0413ead4a21b389e33c77706102/ba023cfa11c04351a3758b21ee4418fe/?child=first) | JavaScript file | used for tipps with switch cases and ternary operators |
+| [BestColleges](https://www.bestcolleges.com/bootcamps/guides/how-to-decide-if-coding-is-right-for-me/) | Home page / decider container | Inspirations for questions for the decider |
 
 ### Media
 
