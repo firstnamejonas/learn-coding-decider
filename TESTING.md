@@ -100,7 +100,25 @@ Defensive programming was manually tested with the below user acceptance testing
 
 
 ## Bugs
-There are no bugs that I am aware of.
+**Bug #01:**
+- Accessibility rating of 85 due to aria-labels, that are not directly matching with content of anchor elements:
+
+    ![screenshot](documentation/lighthouse-confirmation-mobile.png)
+    ![screenshot](documentation/lighthouse-confirmation-desktop.png)
+
+- To fix this, I've optimized the aria-labels and got a score of 94 with just one minor warning left, which is acceptable because the aria-label has the same content as the anchor element.
+
+    ![screenshot](documentation/lighthouse-confirmation-mobile_fixed.png)
+    ![screenshot](documentation/lighthouse-confirmation-desktop_fixed.png)
+
+**Bug #02:**
+- Content in the main section of the confirmation page was pushed down on wider screens due to 100vh in styles.css for body selector:
+
+    ![screenshot](documentation/feature06.png)
+
+- To fix this, I've deleted the 100vh from the body selector and added it to hero-section-confirmation id-selector:
+
+    ![screenshot](documentation/feature06_fixed.png)
 
 ## Unfixed Bugs
 
