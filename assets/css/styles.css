@@ -278,6 +278,12 @@ footer {
     border-top: 1px solid #ebae4a;
 }
 
+footer>h2 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
 footer>h3 {
     color: white;
     text-align: center;
