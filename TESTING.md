@@ -94,7 +94,7 @@ Defensive programming was manually tested with the below user acceptance testing
 | --- | --- | --- | --- |
 | As a new site user, I would like to utilize the Decider so that I can determine if pursuing programming is a suitable career path for me. | ![screenshot](documentation/feature03_1.png) | Yes | Yes |
 | As a new site user, I would like to have clear guidance throughout the decision-making process so that I can navigate the Decider seamlessly. | ![screenshot](documentation/feature03.png) | Yes | Yes |
-| As a new site user, I would like to have the aYeslity to reconsider my decision and restart the Decider so that I can learn more about my suitability for programming. | ![screenshot](documentation/feature06.png) | Yes | Yes |
+| As a new site user, I would like to have the possibility to reconsider my decision and restart the Decider so that I can learn more about my suitability for programming. | ![screenshot](documentation/feature06.png) | Yes | Yes |
 | As a returning site user, I would like to show the Decider to my friends, enabling them to experience the Decider and discover their own coding potential. | ![screenshot](documentation/browser-chrome-home.png) | Yes | Yes |
 | As a returning site user, I would like to learn more about the newsletter I signed up for after the decider. | ![screenshot](documentation/feature04.png) | Yes | Yes |
 
