@@ -59,8 +59,8 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse-home-desktop.png) | Some minor warnings |
-| Confirmation | ![screenshot](documentation/lighthouse-confirmation-mobile.png) | ![screenshot](documentation/lighthouse-confirmation-desktop.png) | Some warnings for accessibility. I fixed the score to 94, you can find out more about it in the [bugs](#bugs) section |
+| Home | ![screenshot](documentation/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse-home-desktop.png) | Perfect score, just some minor warnings for performance with a score of 96. |
+| Confirmation | ![screenshot](documentation/lighthouse-confirmation-mobile.png) | ![screenshot](documentation/lighthouse-confirmation-desktop.png) | Some warnings for accessibility. I fixed the score to 94, you can find out more about it in the [bugs](#bugs) section. There are also minor warnings for the automated refreshing of the page after 15 seconds, which is fine, because it's wanted. |
 
 
 ## Defensive Programming
