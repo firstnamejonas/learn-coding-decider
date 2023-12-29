@@ -112,7 +112,8 @@ Confirmation Page <br>
 
 - **Feature #3: Decider - interactive decision tree**
 
-- The Decider is a dynamic decision tree powered by JavaScript. 
+- The Decider is a dynamic decision tree powered by JavaScript. The logic of the decider is build like the decision tree below:
+![screenshot](documentation/feature03_4.png)
 - It presents users with a series of questions and guides them through a personalized journey. Based on their responses, the Decider determines whether programming is a fitting career choice. 
 - If programming is recommended, users can proceed to an interactive form to subscribe to the newsletter. 
 - In case programming is not recommended, a button allows users to reset the Decider for a fresh start.
