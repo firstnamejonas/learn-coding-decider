@@ -60,7 +60,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Page | Mobile | Desktop | Notes |
 | --- | --- | --- | --- |
 | Home | ![screenshot](documentation/lighthouse-home-mobile.png) | ![screenshot](documentation/lighthouse-home-desktop.png) | Some minor warnings |
-| Confirmation | ![screenshot](documentation/lighthouse-confirmation-mobile.png) | ![screenshot](documentation/lighthouse-confirmation-desktop.png) | Some minor warnings for accessibility |
+| Confirmation | ![screenshot](documentation/lighthouse-confirmation-mobile.png) | ![screenshot](documentation/lighthouse-confirmation-desktop.png) | Some warnings for accessibility. I fixed the score to 94, you can find out more about it in the [bugs](#bugs) section |
 
 
 ## Defensive Programming
